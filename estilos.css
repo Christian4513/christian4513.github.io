@@ -332,7 +332,7 @@ body {
 /* Estilos para pantallas más pequeñas (hasta 600px) */
 @media (max-width: 600px) {
 
-    body {
+    * {
         width: 100%;
 
     }
