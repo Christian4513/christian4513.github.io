@@ -330,6 +330,15 @@ body {
 
 /* Estilos para pantallas más pequeñas (hasta 600px) */
 @media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .container .left_Side,
+    .container .right_Side {
+        width: 100%;
+    }
     .social-icons {
         position: fixed;
         top: 25px;
